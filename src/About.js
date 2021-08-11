@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 // eslint-disable-next-line
-import { Accordion, Tabs, Tab, Modal, Row, Button, Col, Nav, Form, Card, Container, Alert } from "react-bootstrap";
+import { Accordion, Tabs, Tab, Row, Button, Col, Nav, Form, Card, Container, Alert } from "react-bootstrap";
 import './App.css';
 import NIKE from './NIKE.png';
 
@@ -38,7 +38,7 @@ class About extends Component {
                                 <div className="col-md-6">
                                     <h1 style={{ color: "#f85327", fontFamily: "Source Sans Pro, sans-serif", fontWeight: "bold", fontStyle: "italic", fontSize: "2rem" }}>What is Nike Air ?</h1>
                                     <hr style={{ color: "#ff3600", fontWeight: "bold", padding: ".1rem", width: "10rem" }} />
-                                    <p style={{ fontFamily: "Roboto, sans-serif", fontStyle: "italic", fontSize: "1rem" }}>Nike Air is our iconic innovation that uses pressurised air in a <br/>
+                                    <p style={{ fontFamily: "Roboto, sans-serif", fontStyle: "italic", fontSize: "1rem" }}>Nike Air is our iconic innovation that uses pressurised air in a <br />
                                         durable, flexible membrane to provide lightweight cushioning. The air compresses on impact and then immediately returns to its original shape and volume, ready for the next impact. We've been continuously evolving and improving it ever since.</p>
                                 </div>
                             </div>
