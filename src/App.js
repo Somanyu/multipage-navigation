@@ -1,25 +1,54 @@
-import logo from './logo.svg';
+import React, { Component } from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+// eslint-disable-next-line
+import { Tabs, Tab, Modal, Row, Button, Col, Nav, Form, Card, Container, Sonnet } from "react-bootstrap";
+import Home from "./Home";
+import Product from "./Product";
+import Contact from "./Contact";
+import About from './About';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div className="whole">
+        {/* <Container>
+        <Row>
+          <Col>
+            <Tabs defaultActiveKey="Home"
+              id="controlled-tab-example">
+              <Tab eventKey="home" title="Home">
+                <Home />
+              </Tab>
+              <Tab eventKey="profile" title="Profile">
+                <Profile />
+              </Tab>
+              <Tab eventKey="contact" title="Contact">
+                <Contact />
+              </Tab>
+            </Tabs>
+          </Col>
+        </Row>
+      </Container> */}
+        <Tabs fill defaultActiveKey="home" id="uncontrolled-tab-example" className="mb-3">
+        
+          <Tab eventKey="home" title="Home">
+            <Home />
+          </Tab>
+          <Tab eventKey="about" title="About Us">
+            <About />
+          </Tab>
+          <Tab eventKey="product" title="Product">
+            <Product />
+          </Tab>
+          <Tab eventKey="contact" title="Contact Us" >
+            <Contact />
+          </Tab>
+        </Tabs>
+
+      </div>
+    );
+  }
 }
 
 export default App;
