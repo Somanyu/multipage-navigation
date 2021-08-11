@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,54 @@
   to {
     transform: rotate(360deg);
   }
+} */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Source+Sans+Pro:wght@400;700&display=swap');
+
+body {
+  background-color: #f6f7f9;;
+}
+
+.nav-tabs {
+  border-bottom: none;
+  font-size: 1.1rem;
+  margin-bottom: 1.9rem !important;
+}
+
+.nav-tabs .nav-link {
+  margin-bottom: -1px;
+  background: 0 0;
+  border: none;
+  border-top-left-radius: 0rem;
+  border-top-right-radius: 0rem;
+  color: #000000;
+  background-color: #f6f7f9;
+  font-family: "Poppins", sans-serif;
+}
+
+.nav-link.active {
+  border-color: none;
+}
+.nav-link {
+  padding: 0.8rem 1rem;
+}
+
+.nav-tabs .nav-link.active {
+  color: #ffffff;
+  background-color: rgb(0, 0, 0);
+  border-color: #dee2e6 #dee2e6 #fff;
+}
+
+.progress-bar {
+  width: 75%;
+}
+
+/*--HOME--*/
+#home,
+#about {
+  background-color: #f6f7f9;
+}
+
+#titleh1 {
+  font-family: 'Source Sans Pro', sans-serif;
 }
