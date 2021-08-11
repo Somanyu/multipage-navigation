@@ -9,7 +9,7 @@ class Contact extends Component {
     render() {
         return (
             <div id="home">
-                <Container>
+                <Container style={{width:"50rem"}}>
                     <Alert variant="success">
                         <Alert.Heading>Hey, nice to see you</Alert.Heading>
                         <p>
