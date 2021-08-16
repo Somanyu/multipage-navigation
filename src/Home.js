@@ -10,44 +10,31 @@ class Home extends Component {
     render() {
         return (
             <div id="home">
-                {/* <Container>
-                    <Alert variant="success">
-                        <Alert.Heading>Hey, nice to see you</Alert.Heading>
-                        <p>
-                            Aww yeah, you successfully read this important alert message. This example
-                            text is going to run a bit longer so that you can see how spacing within an
-                            alert works with this kind of content.
-                        </p>
-                        <hr />
-                        <p className="mb-0">
-                            Whenever you need to, be sure to use margin utilities to keep things nice
-                            and tidy.
-                        </p>
-                    </Alert>
-                </Container> */}
-                <div className="d-flex justify-content-lg-center align-items-lg-center" style={{ height: "39.7rem" }}>
-                    <div className="container" style={{ paddingTop: "12px", paddingBottom: "12px" }}>
-                        <div className="row">
-                            <div className="col d-lg-flex justify-content-lg-center align-items-lg-cemter" style={{ marginTop: "6rem" }}>
-                                <div>
-                                    <p style={{ height: "13px", color: "#5eddc1", fontFamily: "Source Sans Pro, sans-serif", marginLeft: "26px", fontWeight: "bold" }}>NIKE Air 20S</p>
-                                    <h1 id="titleh1" style={{ fontSize: "4.8rem", width: "27.75rem", fontWeight: "bold", fontStyle: "italic", textShadow: "3px 1px #5eddc1", textAlign: "left", height: "283px", marginTop: "15px" }}>GET A GOOD DOSE OF SPEED!</h1>
-                                    <p style={{ fontFamily: "Roboto Condensed, sans-serif", fontStyle: "italic", color: "#5eddc1", fontSize: "15px", fontWeight: "bold", textAlign: "justify", paddingLeft: "12px" }}>Nike Air is our iconic innovation that uses <br /> pressurised air in a durable, flexible membrane to provide lightweight<br /> cushoining. More durable and more lightweight</p>
-                                    {/* <div className="d-flex d-lg-flex justify-content-around" style={{padding:"52px"}}>
-                                        <a className="btn" role="button" href="./About" style={{fontFamily:"Roboto Condensed, sans-serif", fontStyle:"italic", borderRadius:"0px", border:"2px solid #5eddc1", color:"#FFFFFF", background:"#5eddc1", boxShadow:"2px 2px #000000"}}>Know More</a>
-                                        <a className="btn" role="button" href="#/Product" style={{fontFamily:"Roboto Condensed, sans-serif", fontStyle:"italic", borderRadius:"0px", border:"2px solid #5eddc1", color:"#FFFFFF", background:"#5eddc1", boxShadow:"2px 2px #000000"}}>Shop Now</a>
-                                    </div> */}
-                                </div>
-                            </div>
-                            <div className="col">
-                                <div className="text-center">
-                                    <img src={shoe} alt="shoe" style={{ width: "33.438rem", boxShadow: "7px 0px #5eddc1, 0px 7px 0px" }} />
-                                </div>
+                <div className="container d-lg-flex justify-content-lg-center align-items-lg-center">
+                    <div className="row">
+                        <div className="col offset-lg-0 d-lg-flex align-items-lg-center">
+                            <div>
+                                <p style={{ color: "#5eddc1", fontFamily: "Source Sans Pro, sans-serif", fontWeight: "bold", fontStyle: "italic" }}>NIKE Air 20S</p>
+                                <h1 style={{ color: "#212529", fontFamily: "Source Sans Pro, sans-serif", fontStyle: "italic", textShadow: "2px 1px #5eddc1", fontSize: "4rem", fontWeight: "bold" }}>GET A GOOD</h1>
+                                <h1 style={{ color: "#212529", fontFamily: "Source Sans Pro, sans-serif", fontWeight: "bold", fontStyle: "italic", textShadow: "2px 0px #5eddc1", fontSize: "4rem" }}>DOSE OF</h1>
+                                <h1 style={{ color: "#212529", fontFamily: "Source Sans Pro, sans-serif", fontWeight: "bold", fontStyle: "italic", textShadow: "2px 0px #5eddc1", fontSize: "4rem" }}>SPEED!!</h1>
+                                <p style={{ color: "#5eddc1", fontStyle: "italic", fontWeight: "bold" }}>Nike Air is out iconic innovation that uses pressurised air in a durable, flexible membrane to provide lightweight cushioning. More durable and more lightweight.</p>
                             </div>
                         </div>
+                        <div className="col-md-6"><img className="img-fluid" src={shoe} alt="shoe" /></div>
                     </div>
                 </div>
+                        {/* <footer className="footer-dark" style={{background: "#000000", paddingTop: "35px", paddingBottom: "35px"}}>
+                            <div className="container">
+                                <div className="row">
+                                    <div className="col-sm-6 col-md-3 item">
+                                        <h3 style={{fontFamily: "Roboto, sans-serif", fontWeight: "bold", color: "#ffffff"}}>GET HELP</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </footer> */}
             </div>
+
         );
     }
 }
