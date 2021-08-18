@@ -4,7 +4,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Tabs, Tab, Modal, Row, Button, Col, Nav, Form, Card, Container, Sonnet } from "react-bootstrap";
 import Home from "./Home";
 import Product from "./Product";
-import Contact from "./Contact";
 import About from './About';
 import './App.css';
 
@@ -31,18 +30,15 @@ class App extends Component {
         </Row>
       </Container> */}
         <Tabs fill defaultActiveKey="home" id="uncontrolled-tab-example" className="mb-3">
-        
-          <Tab eventKey="home" title="Home">
+
+          <Tab eventKey="home" title="Nike Air 20S">
             <Home />
           </Tab>
-          <Tab eventKey="about" title="About Us">
+          <Tab eventKey="about" title="About Air 20S">
             <About />
           </Tab>
-          <Tab eventKey="product" title="Product">
+          <Tab eventKey="product" title="Order Now">
             <Product />
-          </Tab>
-          <Tab eventKey="contact" title="Contact Us" >
-            <Contact />
           </Tab>
         </Tabs>
 
