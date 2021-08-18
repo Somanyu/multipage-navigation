@@ -53,6 +53,9 @@ class Home extends Component {
                                     <li>
                                         <a href="#home">Investors</a>
                                     </li>
+                                    <li>
+                                        <a href="#home">Contact</a>
+                                    </li>
                                 </ul>
                             </div>
                             <div className="col item social" style={{ marginTop: "25px" }}>
